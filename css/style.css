@@ -1,0 +1,449 @@
+*{
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body{
+  background: #e8e3d9;
+  font-family: 'Montserrat', sans-serif;
+  color: #1f2424;
+}
+footer{
+  background: #2f4f4f;
+  height: auto;
+  width: 100vw;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 0px auto;
+  color: #e8e3d9;
+}
+
+/* HEADER NAVIGATION */
+.navigation{
+  display: flex;
+  min-height: 1px;
+}
+.leftNav {
+  display: flex;
+  justify-content: flex-start;
+  vertical-align: top;
+  width: 50%;
+  padding-top: 1%;
+  text-align: left;
+}
+.navName {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 39px;
+  padding-left: 20px;
+  text-align:center
+}
+/* right nav items */
+.inline-block{
+  display: inline-block;
+  vertical-align: top;
+}
+/* right nav text*/
+.inline-block a {
+  font-weight: normal;
+  line-height: 40px;
+  text-decoration: none;
+  list-style: none;
+  padding: 20px;
+  color: #1f2424;
+  transform: all .4s ease;
+}
+.inline-block a:hover {
+  color: #daa520
+}
+.rightNav{
+  width: 73%;
+  padding: 1%;
+  display: flex;
+  justify-content: flex-end;
+}
+.rightNav ul{
+  width: 50%;
+  margin-left: auto;
+  padding: 1%;
+}
+
+/*  HEROIMG */
+.heroImg {
+  padding: 0;
+  margin-bottom: 0 auto;
+}
+.heroImg, .textContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 0;
+}
+.textContent {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr;
+}
+.textContent h1{
+  font-weight: bolder;
+  font-size: 50px;
+  line-height: 60px;
+  grid-area: 1/1/2/2;
+}
+.textContent h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+/* MY DESIGN PROCESS */
+.myDesignProcess {
+background-color: #77a0b7;
+padding: 20px;
+padding-bottom: 40px;
+}
+.myDesignProcess h1{
+  font-weight: bolder;
+  font-size: 50px;
+  line-height: 60px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 0;
+}
+.myDesignProcess p{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+.myProcess{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.myProcess h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  padding: 20px;
+}
+.myProcess li{
+  margin: 0 10px;
+}
+
+.aboutMeButton {
+  margin: 0 auto;
+  display: block;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 2px solid #1f2424;
+  padding: 10px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.aboutMeButton a{
+  text-align: center;
+  text-decoration: none;
+  transform: color .4s ease;
+  color: #1f2424;
+}
+.aboutMeButton a:hover {
+  color: #e8e3d9;
+}
+
+/* MY WORK */
+.myWork h1{
+  font-weight: bolder;
+  font-size: 50px;
+  line-height: 60px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 20px;
+  padding-top: 60px;
+}
+
+.workGrid {
+  display: grid;
+  grid-template-areas:
+  "taskmnstr taskmnstrImg"
+  "hsco hscoImg"
+  "doi doiImg";
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+.workGrid > div {
+  border-radius: 5px;
+  gap: 5px;
+  padding: 20px;
+}
+.TaskMNSTR {
+  grid-area: taskmnstr;
+  text-align: left;
+  margin: 0 auto;
+  padding: 20px;
+}
+.TaskMNSTRImg img {
+  grid-area: taskmnstrImg;
+}
+.HSCO {
+  grid-area: hsco;
+  text-align: left;
+  margin: 0 auto;
+  padding: 20px;
+}
+.HSCOImg img {
+  grid-area: hscoImg;
+}
+.DOI {
+  grid-area: doi;
+  text-align: left;
+  margin: 0 auto;
+  padding: 20px;
+}
+.DOIImg img {
+  grid-area: doiImg;
+}
+
+.TaskMNSTR img {
+  width: 40%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.TaskMNSTR p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  padding-bottom: 20px;
+}
+.TaskMNSTR h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  padding-bottom: 20px;
+}
+.HSCO img {
+  width: 40%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.HSCO p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  padding-bottom: 20px;
+}
+.HSCO h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  padding-bottom: 20px;
+}
+.DOI img {
+  width: 40%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.DOI p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  padding-bottom: 20px;
+}
+.DOI h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  padding-bottom: 20px;
+}
+.caseStudyButtons {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 2px solid #1f2424;
+  padding: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.caseStudyButtons a{
+  text-align: center;
+  text-decoration: none;
+  transform: color .4s ease;
+  color: #1f2424;
+}
+.caseStudyButtons a:hover {
+  color: #daa520;
+}
+.TaskMNSTRImg img {
+  width: 100%;
+  height: 100%;
+}
+.HSCOImg img {
+  width: 100%;
+  height: 100%;
+}
+.DOIImg img {
+  width: 100%;
+  height: 100%;
+}
+
+/* FOOTER */
+.footer-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h2{
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  color: #e8e3d9;
+  transform: color .4s ease;
+}
+.socials a i{
+  font-size: 1.1rem;
+}
+.socials a:hover i{
+  color: #daa520;
+}
+
+.foot-nav{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.foot-nav a{
+  text-decoration: none;
+  color: #e8e3d9;
+  font-weight: normal;
+  transform: color .4s ease;
+  margin: 20px;
+}
+.foot-nav a:hover {
+  color: #daa520;
+}
+
+.footer-bottom{
+  color: #e8e3d9;
+  width: 100vw;
+  padding: 20 px 0;
+  text-align: center;
+}
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+/* MOBILE MEDIA QUERY*/
+@media only screen and (max-width: 600px){
+  .workGrid {
+    display: grid;
+    grid-template-areas:
+    "taskmnstr"
+    "taskmnstrImg"
+    "hsco"
+    "hscoImg"
+    "doi"
+    "doiImg"
+    ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  .workGrid > div {
+    border-radius: 5px;
+    gap: 5px;
+    padding: 10px;
+  }
+  .heroImg, .textContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 0;
+  }
+  .textContent {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+  }
+  .textContent h1{
+    font-weight: bolder;
+    font-size: 32px;
+    line-height: 40px;
+    grid-area: 1/1/2/2;
+  }
+  .textContent h2 {
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .navName {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    padding-left: 20px;
+    text-align: left
+  }
+  .myProcess {
+    list-style: none;
+    display:block;
+    width:100%;
+    height:100%;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    text-align: center;
+  }
+  .myProcess ul li{
+    margin: 0 10px;
+  }
+}
+/* PRELOADER */
+.preloader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 100000;
+  background-color: #e8e3d9;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.preloader img {
+  width: 150px;
+  margin: 0 auto;
+}
