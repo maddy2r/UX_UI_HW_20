@@ -87,18 +87,21 @@ section {
   margin-left: 20%;
   margin-right: 20%;
   margin-bottom: 20px;
+  padding-top: 40px;
 
 }
-.outerContainer {
-  margin: 20px;
+.problem {
+  padding: 40px;
+  margin-top: 80px;
 }
-.jumbotron h2 {
+.problem h2 {
   font-weight: 600;
   font-size: 32px;
   line-height: 40px;
-  color: #1f2424
+  color: #1f2424;
+  padding-bottom: 10px;
 }
-.jumbotron p {
+.problem p {
   font-weight: lighter;
   font-size: 24px;
   line-height: 40px;
@@ -106,18 +109,17 @@ section {
 }
 
 /* SUBNAV */
-.nav {
+.navbar {
   background-color: #e8e3d9;
 }
 hr {
-  background-color: #e8e3d9;
+  background-color: #2f4f4f;
 }
 .nav-item a {
   font-weight: normal;
   line-height: 40px;
   text-decoration: none;
   list-style: none;
-  padding: 20px;
   color: #1f2424;
   transform: all .4s ease;
 }
@@ -133,7 +135,7 @@ hr {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding: 20px;
+  padding: 80px;
   padding-bottom: 0;
 }
 .interviewFindings {
@@ -171,7 +173,7 @@ hr {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding: 20px;
+  padding: 40px;
   padding-bottom: 0;
 }
 .ErinAnderson {
@@ -237,7 +239,7 @@ hr {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding: 20px;
+  padding: 80px;
   padding-bottom: 0;
 }
 .usability {
@@ -288,7 +290,7 @@ hr {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding: 20px;
+  padding: 80px;
   padding-bottom: 0;
 }
 .solution {
