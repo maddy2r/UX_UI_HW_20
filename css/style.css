@@ -91,7 +91,9 @@ section {
 
 }
 .problem {
-  padding: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 40px;
   margin-top: 80px;
 }
 .problem h2 {
@@ -139,7 +141,10 @@ hr {
   padding-bottom: 0;
 }
 .interviewFindings {
-  padding: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 40px;
+  margin-top: 80px;
 }
 .interviewFindings h2 {
   font-weight: 600;
@@ -160,12 +165,35 @@ hr {
   line-height: 32px;
   color: #77A0b7;
   display: flex;
-  justify-content: flex-start;
-  margin-bottom: 40px;
+  justify-content: center;
+  margin-bottom: 20px;
   margin-top: 40px;
 }
 
 /* DEFINE */
+.card {
+  margin: 40px;
+}
+.card-text {
+  font-weight: lighter;
+  font-size: 24px;
+  line-height: 40px;
+  color: #1f2424;
+  padding: 60px;
+  padding-top: 10px;
+  background-color: #e8e3d9;
+}
+.card q {
+  font-style: italic;
+  font-size: 18px;
+  line-height: 32px;
+  color: #77A0b7;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: #e8e3d9;
+}
 .definition {
   font-weight: bolder;
   font-size: 50px;
@@ -176,40 +204,22 @@ hr {
   padding: 40px;
   padding-bottom: 0;
 }
-.ErinAnderson {
-  padding: 40px;
-}
+
 .ErinAnderson h2 {
   font-weight: 600;
   font-size: 32px;
   line-height: 40px;
   color: #1f2424;
-  padding-bottom: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 80px;
 }
-.ErinAnderson p {
-  font-weight: lighter;
-  font-size: 24px;
-  line-height: 40px;
-  color: #1f2424;
-}
-.ErinAnderson q {
-  font-style: italic;
-  font-size: 18px;
-  line-height: 32px;
-  color: #77A0b7;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 40px;
-  margin-top: 40px;
-}
-.ErinAnderson img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
+
 .features {
-  padding: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 40px;
+  margin-top: 80px;
 }
 .features h2 {
   font-weight: 600;
@@ -243,7 +253,10 @@ hr {
   padding-bottom: 0;
 }
 .usability {
-  padding: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 40px;
+  margin-top: 80px;
 }
 .usability h2 {
   font-weight: 600;
@@ -294,7 +307,10 @@ hr {
   padding-bottom: 0;
 }
 .solution {
-  padding: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 40px;
+  margin-top: 80px;
 }
 .solution h2 {
   font-weight: 600;
@@ -310,7 +326,10 @@ hr {
   color: #1f2424;
 }
 .responsiveDesign {
-  padding: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 40px;
+  margin-top: 80px;
 }
 .responsiveDesign h2 {
   font-weight: 600;
@@ -326,7 +345,10 @@ hr {
   color: #1f2424;
 }
 .learningOutcomes {
-  padding-left: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 40px;
+  margin-top: 80px;
 }
 .learningOutcomes h2 {
   font-weight: 600;
@@ -416,6 +438,18 @@ hr {
 
 /* MOBILE MEDIA QUERY*/
 @media only screen and (max-width: 600px){
+  .card {
+    margin: 10px;
+  }
+  .card-text {
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 40px;
+    color: #1f2424;
+    padding: 10px;
+    padding-top: 10px;
+    background-color: #e8e3d9;
+  }
   .workGrid {
     display: grid;
     grid-template-areas:
